@@ -9,6 +9,7 @@ type IMetaProps = {
   title: string;
   description: string;
   canonical?: string;
+  meta: string;
 };
 
 const Meta = (props: IMetaProps) => {
